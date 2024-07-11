@@ -7,7 +7,7 @@ void swap(int &x, int &y) { //call by reference
 	x = y;
 	y = t;
 }
-inline int sum(int a, int b, int c = 0) { //c = 0 µğÆúÆ®, inlene ÇÔ¼ö »ç¿ëÀ¸·Î ¼Óµµ¸¦ º¸´Ù ³ôÀÏ ¼ö ÀÖÀ½
+inline int sum(int a, int b, int c = 0) { //c = 0 ë””í´íŠ¸, inline í•¨ìˆ˜ ì‚¬ìš©ìœ¼ë¡œ ì†ë„ë¥¼ ë³´ë‹¤ ë†’ì¼ ìˆ˜ ìˆìŒ
 	return a + b + c;
 }
 int main() {
@@ -17,10 +17,10 @@ int main() {
 	string s1;
 	string s2;
 	s1 = str + str2;
-	int index = s1.find("l");  //lÀÌ µé¾î°¡ ÀÖ´Â ÀÎµ¦½º Ã£±â
+	int index = s1.find("l");  //lì´ ë“¤ì–´ê°€ ìˆëŠ” ì¸ë±ìŠ¤ ì°¾ê¸°
 	cout << "s1.find('l') = " << index << endl;
 	s1.insert(1, "-");
-	cout << s1 << "  " << s1.length() << endl; //s1ÀÇ ¹®ÀÚ¿­°ú s1ÀÇ ±æÀÌ Ãâ·Â
+	cout << s1 << "  " << s1.length() << endl; //s1ì˜ ë¬¸ìì—´ê³¼ s1ì˜ ê¸¸ì´ ì¶œë ¥
 
 	int sum1 = sum(10, 20);
 	int sum2 = sum(10, 20, 30);
