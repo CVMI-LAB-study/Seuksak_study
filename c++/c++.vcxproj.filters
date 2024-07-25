@@ -36,5 +36,8 @@
     <ClCompile Include="연산자중복과 프렌드함수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="상속.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
