@@ -42,5 +42,14 @@
     <ClCompile Include="다형성.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="예외처리와 템플릿.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="파일입출력.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="STL과 람다식.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
